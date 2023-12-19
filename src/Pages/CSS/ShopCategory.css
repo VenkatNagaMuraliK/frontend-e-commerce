@@ -4,9 +4,10 @@
   width: 82%;
 }
 
-.shopcategory-indexSort {
+.shopcategory-indexsort {
   display: flex;
-  margin: 0px 170px;
+  flex-direction: row;
+  margin: 0px 125px;
   justify-content: space-between;
   align-items: center;
 }
@@ -16,16 +17,19 @@
   border-radius: 40px;
   border: 1px solid #888;
 }
-
-.shopcategory-indexSort p span {
+.shopcategory-indexsort p span {
   font-weight: 600;
 }
-
 .shopcategory-products {
-  margin: 20px 170px;
+  margin: 20px 125px;
   display: grid;
+  font-size: 15px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 80px;
+  gap: 20px;
+}
+
+.shopcategory-products img{
+  width: 255px;
 }
 
 .shopcategory-loadmore {

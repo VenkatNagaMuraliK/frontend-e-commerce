@@ -30,3 +30,6 @@
   padding: 48px;
   padding-bottom: 70px;
 }
+.descriptionbox-description p{
+  font-size: 15px;
+}
